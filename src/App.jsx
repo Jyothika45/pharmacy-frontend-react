@@ -1,13 +1,9 @@
-import AddMedicine from './components/AddMedicine'
-import ViewMedicine from './components/ViewMedicine.jsx'
+import AddSale from './components/AddSale'
 
 function App() {
-  
-
   return (
     <>
-    <AddMedicine/>
-    <ViewMedicine/>
+    <AddSale/>
    </>
   )
 }
