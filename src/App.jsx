@@ -1,4 +1,5 @@
 import AddMedicine from './components/AddMedicine'
+import ViewMedicine from './components/ViewMedicine.jsx'
 
 function App() {
   
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
     <AddMedicine/>
+    <ViewMedicine/>
    </>
   )
 }
