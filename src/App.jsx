@@ -1,9 +1,11 @@
 import AddSale from './components/AddSale'
+import ViewSale from './components/ViewSale'
 
 function App() {
   return (
     <>
-    <AddSale/>
+    {/* <AddSale/> */}
+    {/* <ViewSale/> */}
    </>
   )
 }
