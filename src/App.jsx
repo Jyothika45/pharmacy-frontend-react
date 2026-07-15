@@ -1,3 +1,6 @@
+import AddMedicine from './components/AddMedicine'
+import Home from './components/Home.jsx'
+import ViewMedicine from './components/ViewMedicine.jsx'
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -12,6 +15,12 @@ import ViewSupplier from "./components/ViewSupplier";
 
 function App() {
   return (
+    <>
+    {/* <AddMedicine/>
+    <ViewMedicine/> */}
+    <Home/>
+   </>
+  )
     <BrowserRouter>
       <Navbar />
       <Routes>
