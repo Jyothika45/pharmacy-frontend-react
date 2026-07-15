@@ -1,4 +1,5 @@
 import AddMedicine from './components/AddMedicine'
+import Home from './components/Home.jsx'
 import ViewMedicine from './components/ViewMedicine.jsx'
 
 function App() {
@@ -6,8 +7,9 @@ function App() {
 
   return (
     <>
-    <AddMedicine/>
-    <ViewMedicine/>
+    {/* <AddMedicine/>
+    <ViewMedicine/> */}
+    <Home/>
    </>
   )
 }
